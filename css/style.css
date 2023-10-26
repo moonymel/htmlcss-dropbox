@@ -129,3 +129,9 @@ main .box-six .content {
 main .box-six .content-six {
     background-color:red;
 }
+
+/* BOX-SEVEN */
+main .box-seven .content {
+    height:200px;
+    background-color: rgb(113, 224, 118);
+}
