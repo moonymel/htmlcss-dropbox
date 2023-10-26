@@ -116,7 +116,7 @@ main .box-five .content {
 
 /* BOX-SIX */
 main .box-six .row-six {
-    width:100vw;
+    width:100%;
     display:flex; 
     flex-wrap:wrap;
 }
