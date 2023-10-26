@@ -101,3 +101,9 @@ main .box-four .content {
     height: 300px;
     background-color: rgb(138, 138, 188);
 }
+
+/* BOX-FIVE */
+main .box-five .content {
+    height:300px;
+    background-color: rgb(183, 113, 148);
+}
