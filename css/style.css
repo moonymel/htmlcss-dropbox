@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family:'Open Sans', sans-serif;
+}
+
 .container-100 {
     width:100%;
 }
@@ -26,7 +30,6 @@
 
 .col-50 {
     width:calc(100% / 2);
-    border:1px solid rgb(0, 0, 0);
 }
 
 .col-100 {
@@ -70,7 +73,7 @@ ul {
 }
 
 li {
-    display:inline
+    display:inline;
 }
 
 .right {
@@ -78,13 +81,30 @@ li {
 }
 
 /* HEADER!!!!! */
+header {
+    background-color: white;
+    position:fixed;
+    width:100%;
+    z-index:2;
+}
 header .content {
-    height:80px;
-    background-color:rgb(146, 102, 102);
+    font-size:16px;
 }
 
 header .row {
+    height:80px;
     justify-content: center;
+    align-items:center;
+}
+
+header li {
+    margin:0px 15px;
+    vertical-align: middle;
+}
+
+header img {
+    margin-right:15px;
+    vertical-align: middle;
 }
 
 /* MAIN!!!!!!!!! */
