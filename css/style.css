@@ -8,6 +8,11 @@
     width:100%;
 }
 
+.container-1900 {
+    max-width:1200px;
+    margin:0 auto;
+}
+
 .row {
     width:100%;
     display:flex;
@@ -16,6 +21,21 @@
 
 .col-50 {
     width:calc(100% / 2);
+    border:1px solid rgb(0, 0, 0);
+}
+
+.col-100 {
+    width:100%;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.col-40 {
+    width:40%;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.col-60 {
+    width:60%;
     border:1px solid rgb(0, 0, 0);
 }
 
@@ -39,4 +59,17 @@ header .content {
 
 header .row {
     justify-content: center;
+}
+
+/* MAIN!!!!!!!!! */
+
+/* BOX-ONE */
+.box-one {
+    background-color: aquamarine;
+}
+
+main .box-one .content {
+    background-color: beige;
+    height:400px;
+    width:100%;
 }
