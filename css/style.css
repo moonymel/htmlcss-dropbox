@@ -177,7 +177,7 @@ main .box-two .col-100 {
 
 main .box-two .col-33-gap {
     border:1px solid #d8d8d8;
-
+    min-height:800px;
 }
 
 main .fatt {
@@ -191,7 +191,7 @@ main .box-two .card-tit {
 }
 
 main .box-two .card-cont {
-    line-height:30px;
+    line-height:40px;
     padding:20px;
 }
 
