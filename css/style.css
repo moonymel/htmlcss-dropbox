@@ -26,6 +26,7 @@ body {
     width:100%;
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .col-50 {
@@ -48,6 +49,12 @@ body {
 
 .col-33 {
     width:calc(100% / 3);
+    border:1px solid rgb(0, 0, 0);
+}
+
+.col-33-gap {
+    gap:20px 20px;
+    width:calc(100% / 3 - 20px);
     border:1px solid rgb(0, 0, 0);
 }
 
@@ -79,10 +86,6 @@ ul {
     list-style-type: none;
 }
 
-li {
-    display:inline;
-}
-
 .right {
     text-align:right;
 }
@@ -107,6 +110,7 @@ header .row {
 header li {
     margin:0px 15px;
     vertical-align: middle;
+    display:inline;
 }
 
 header img {
@@ -126,6 +130,10 @@ h2 {
     font-family:'Palanquin Dark', sans-serif;
     font-size:38px;
     font-weight:400;
+}
+
+h3 {
+    font-size:20px;
 }
 
 main .blue {
@@ -159,12 +167,61 @@ main .box-two {
     font-size:15px;
 }
 
-main .box-two .content {
-    height:300px;
-    background-color:rgb(84, 196, 119);
+main .box-two .col-100 .content {
+    line-height:80px;
 }
 
+main .box-two .col-100 {
+    margin-bottom:70px;
+}
 
+main .box-two .col-33-gap {
+    border:1px solid #d8d8d8;
+
+}
+
+main .fatt {
+    margin-right:40px;
+}
+
+main .box-two .card-tit {
+    text-align:center;
+    padding:10px 0;
+    border-bottom:1px solid #d8d8d8;
+}
+
+main .box-two .card-cont {
+    line-height:30px;
+    padding:20px;
+}
+
+main .box-two .cost {
+    font-weight:bold;
+    font-size:13px;
+}
+
+main .box-two .under {
+    color:rgb(133, 133, 133);
+}
+
+main .box-two ul {
+    line-height:25px;
+    margin-top:30px;
+}
+
+main .box-two li {
+    margin:10px 0;
+}
+
+main .box-two .list-cont {
+    line-height:20px;
+    display:inline-block;
+}
+
+main .box-two hr {
+    margin:30px 0px;
+    width:80px;
+}
 
 /* BOX-THREE */
 main .box-three .content {
