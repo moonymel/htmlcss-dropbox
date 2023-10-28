@@ -39,12 +39,10 @@ body {
 
 .col-40 {
     width:40%;
-    border:1px solid rgb(0, 0, 0);
 }
 
 .col-60 {
     width:60%;
-    border:1px solid rgb(0, 0, 0);
 }
 
 .col-33 {
@@ -55,7 +53,6 @@ body {
 .col-33-gap {
     gap:20px 20px;
     width:calc(100% / 3 - 20px);
-    border:1px solid rgb(0, 0, 0);
 }
 
 .col-50x50 {
@@ -128,12 +125,12 @@ main .title {
 
 h2 {
     font-family:'Palanquin Dark', sans-serif;
-    font-size:38px;
+    font-size:40px;
     font-weight:400;
 }
 
 h3 {
-    font-size:20px;
+    font-size:24px;
 }
 
 main .blue {
@@ -141,6 +138,13 @@ main .blue {
     background-color: #0061ff;
     padding:10px;
     margin:30px 0px;
+}
+
+main .white {
+    background-color: white;
+    border:1px solid black;
+    padding:20px;
+    margin:20px 0opx;
 }
 
 /* BOX-ONE */
@@ -237,15 +241,34 @@ main .box-two .col-100-bord .blue {
 }
 
 /* BOX-THREE */
-main .box-three .content {
-    height: 300px;
-    background-color: rgb(195, 120, 29);
+main .box-three  {
+    margin:130px 0px;
 }
+
+main .box-three img {
+    width:100%;
+}
+
+main .box-three .col-40 .content {
+    padding:80px 20px;
+}
+
 
 /* BOX-FOUR */
 main .box-four .content {
-    height: 300px;
-    background-color: rgb(138, 138, 188);
+
+}
+
+main .box-four img {
+    width:100%;
+}
+
+main .box-four .col-100 {
+    margin-bottom:30px;
+}
+
+main .box-four .col-33-gap {
+    margin-bottom:20px;
 }
 
 /* BOX-FIVE */
