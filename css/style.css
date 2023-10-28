@@ -272,9 +272,13 @@ main .box-four .col-33-gap {
 }
 
 /* BOX-FIVE */
-main .box-five .content {
-    height:300px;
-    background-color: rgb(183, 113, 148);
+main .box-five  {
+    margin:130px 0;
+}
+
+main .box-five .content{
+    width:70%;
+    line-height:50px;
 }
 
 /* BOX-SIX */
