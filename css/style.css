@@ -75,6 +75,10 @@ body {
     width:70%;
 }
 
+.col-20 {
+    width:20%
+}
+
 ul {
     list-style-type: none;
 }
@@ -388,7 +392,7 @@ main .box-seven h2 {
 /* BOX-EIGHT */
 main .box-eight {
     padding:130px 0;
-    
+
 }
 main .box-eight .content {
     padding:20px 0;
@@ -397,4 +401,32 @@ main .box-eight .content {
 main .box-eight .row {
     align-items:baseline;
     border-bottom:1px solid rgb(202, 202, 202);
+}
+
+
+/* FOOTER!!!!!!!!!!! */
+footer {
+    background-color:black;
+    color:white;
+}
+
+footer .container-1200 {
+    padding:80px 0;
+}
+
+footer li:first-child {
+    font-size:25px;
+    font-weight:bold;
+    padding:30px 0;
+}
+
+footer ul {
+    line-height:40px;
+}
+
+footer .col-10 {
+    padding:50px 0;
+    margin-top:80px;
+    border-top:1px solid rgb(202, 202, 202);
+    color:rgb(124, 124, 124);
 }
