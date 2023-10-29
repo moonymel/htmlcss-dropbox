@@ -140,15 +140,20 @@ h4 {
 main .blue {
     color:white;
     background-color: #0061ff;
-    padding:10px;
+    padding:12px;
     margin:30px 0px;
+    border:none;
+    font-family:'Open Sans', sans-serif;
+    font-size:16px;
 }
 
 main .white {
     background-color: white;
     border:1px solid black;
-    padding:20px;
-    margin:20px 0opx;
+    padding:10px;
+    margin:0px 0px;
+    font-family:'Open Sans', sans-serif;
+    font-size:16px;
 }
 
 /* BOX-ONE */
@@ -241,8 +246,15 @@ main .box-two hr {
 main .box-two .col-100-bord .blue {
     position:absolute;
     top:0;
-    right:0;
+    right:30px;
+    width:auto;
+    padding:0px 30px;
 }
+
+main .box-two .blue {
+    width:100%;
+}
+
 
 /* BOX-THREE */
 main .box-three  {
@@ -386,6 +398,15 @@ main .box-seven .content {
 
 main .box-seven h2 {
     color:#61082b;
+}
+
+main .box-seven .white {
+    border:none;
+    padding:10px 40px;
+}
+
+main .box-seven .right {
+    text-align:right;
 }
 
 
