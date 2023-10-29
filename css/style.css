@@ -47,7 +47,6 @@ body {
 
 .col-33 {
     width:calc(100% / 3);
-    border:1px solid rgb(0, 0, 0);
 }
 
 .col-33-gap {
@@ -55,10 +54,9 @@ body {
     width:calc(100% / 3 - 20px);
 }
 
-.col-50x50 {
+.col-square {
     width:50%;
     height: calc(100vw / 6);
-    border:1px solid rgb(0, 0, 0);
 }
 
 .col-80 {
@@ -293,9 +291,82 @@ main .box-six .content {
     flex-wrap:wrap;
 }
 
-main .box-six .content-six {
-    background-color:red;
+main .box-six #center {
+    background-color:#f5f5f5;
+    padding:50px;
 }
+
+main .box-six #center img {
+    width:60%;
+    display:block;
+}
+
+main .box-six #center p {
+    padding:20px 0;
+}
+
+main .box-six .col-square {
+    position:relative;
+    background-color:#a2d39b;
+}
+
+main .box-six #one {
+    background-color:#a2d39b;
+    border:15px solid #d1e9cd;
+}
+
+main .box-six #two {
+    background-color:#61082b;
+}
+
+main .box-six #three {
+    background-color:#0093ce;
+}
+
+main .box-six #four {
+    background-color:#ff1c1c;
+}
+
+main .box-six #five {
+    background-color:#d5001f;
+}
+
+main .box-six #six {
+    background-color:#b4d0e7;
+}
+
+main .box-six #seven {
+    background-color:#0d2481;
+}
+
+main .box-six #eight {
+    background-color:#ffd830;
+}
+
+main .box-six .logo {
+    width:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+main .box-six .logo img {
+    width:100%;
+    filter:invert(100)
+}
+
+main .box-six .sub-hr {
+    width:20%;
+    border-bottom:1px solid rgb(202, 202, 202);
+    margin-bottom:30px;
+}
+
+main .box-six .image {
+    width:100%;
+    margin-bottom:50px;
+}
+
 
 /* BOX-SEVEN */
 main .box-seven .content {
