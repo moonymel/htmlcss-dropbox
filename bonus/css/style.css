@@ -116,6 +116,10 @@ header .row {
     align-items:center;
 }
 
+header ul {
+    display:inline-block;
+}
+
 header li {
     margin:0px 15px;
     vertical-align: middle;
@@ -129,20 +133,17 @@ header img {
 
 header .menu {
     display:none;
-    background-color: red;
-    width:200px;
-    height:200px;
-    z-index:1000;
+    background-color: white;
+    z-index:1;
     position:absolute;
-    right:400px;
-    top:400px;
+    left:0;
+    top:50px;
+    width:20%;
+    padding:20px;
+    line-height:30px;
 }
 
-.prova {
-    display:inline-block
-}
-
-.prova:hover .menu {
+header .content:hover .menu {
     display:block;
 }
 
@@ -465,15 +466,13 @@ main .box-eight .row {
     border-bottom:1px solid rgb(202, 202, 202);
 }
 
-.main .box-eight .answer {
+main .box-eight .answer {
     display:none;
-    width:200px;
-    height:200px;
-    background-color: red;
+    margin:10px 0;
 }
 
-.main h4:hover .answer {
-    display:block
+main .content:hover .answer {
+    display:block;
 }
 
 
