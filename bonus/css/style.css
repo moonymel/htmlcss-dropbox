@@ -107,6 +107,7 @@ header {
 }
 header .content {
     font-size:16px;
+    position:relative;
 }
 
 header .row {
@@ -124,6 +125,25 @@ header li {
 header img {
     margin-right:15px;
     vertical-align: middle;
+}
+
+header .menu {
+    display:none;
+    background-color: red;
+    width:200px;
+    height:200px;
+    z-index:1000;
+    position:absolute;
+    right:400px;
+    top:400px;
+}
+
+.prova {
+    display:inline-block
+}
+
+.prova:hover .menu {
+    display:block;
 }
 
 /* MAIN!!!!!!!!! */
@@ -444,6 +464,18 @@ main .box-eight .row {
     align-items:baseline;
     border-bottom:1px solid rgb(202, 202, 202);
 }
+
+.main .box-eight .answer {
+    display:none;
+    width:200px;
+    height:200px;
+    background-color: red;
+}
+
+.main h4:hover .answer {
+    display:block
+}
+
 
 
 /* FOOTER!!!!!!!!!!! */
