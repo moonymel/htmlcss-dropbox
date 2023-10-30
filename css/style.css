@@ -231,11 +231,14 @@ main .box-two ul {
 
 main .box-two li {
     margin:10px 0;
+    display:flex;
+    align-items:baseline;
 }
 
 main .box-two .list-cont {
     line-height:20px;
     display:inline-block;
+    padding-left:5px;
 }
 
 main .box-two hr {
