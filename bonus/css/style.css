@@ -354,6 +354,12 @@ main .box-six .content {
 main .box-six #center {
     background-color:#f5f5f5;
     padding:50px;
+    height: calc(100vw / 3);
+}
+
+main .box-six #center .content {
+    height:80%;
+    overflow:auto;
 }
 
 main .box-six #center img {
